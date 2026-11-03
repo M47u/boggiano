@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Imagen ilustrativa: Quesos">
+  <rect width="400" height="300" fill="#faf3f1"/>
+  <g fill="none" stroke="#760001" stroke-width="3" opacity="0.85"><path d="M110 170 L290 170 L290 110 L130 90 Z"/><path d="M130 90 L290 110"/><circle cx="180" cy="140" r="10"/><circle cx="240" cy="150" r="7"/><circle cx="215" cy="125" r="5"/></g>
+  <text x="200" y="262" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="24" font-style="italic" font-weight="700" fill="#760001">Quesos</text>
+</svg>

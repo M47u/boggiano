@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Imagen ilustrativa: Encurtidos">
+  <rect width="400" height="300" fill="#faf3f1"/>
+  <g fill="none" stroke="#760001" stroke-width="3" opacity="0.85"><rect x="155" y="70" width="90" height="20" rx="4"/><path d="M150 90 h100 v110 a12 12 0 0 1 -12 12 h-76 a12 12 0 0 1 -12 -12 Z"/><ellipse cx="185" cy="140" rx="12" ry="16"/><ellipse cx="215" cy="170" rx="12" ry="16"/></g>
+  <text x="200" y="262" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="24" font-style="italic" font-weight="700" fill="#760001">Encurtidos</text>
+</svg>

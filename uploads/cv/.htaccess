@@ -1,0 +1,15 @@
+# Uploaded CVs must never be served over HTTP.
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>
+
+# Defense in depth: never execute scripts from this folder.
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+Options -Indexes -ExecCGI
+RemoveHandler .php .phtml .php3 .php4 .php5 .php7 .php8 .phar

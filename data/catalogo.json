@@ -1,0 +1,116 @@
+{
+  "categorias": [
+    { "id": "fiambres", "nombre": "Fiambres" },
+    { "id": "quesos", "nombre": "Quesos" },
+    { "id": "encurtidos", "nombre": "Encurtidos" },
+    { "id": "picadas", "nombre": "Picadas" },
+    { "id": "otros", "nombre": "Otros" }
+  ],
+  "productos": [
+    {
+      "categoria": "fiambres",
+      "nombre": "Jamón crudo",
+      "descripcion": "Estacionado, de sabor intenso. Cortado en fetas finas al momento.",
+      "imagen": "img/productos/fiambres.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "fiambres",
+      "nombre": "Jamón cocido",
+      "descripcion": "Suave y jugoso, ideal para sándwiches y tostados.",
+      "imagen": "img/productos/fiambres.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "fiambres",
+      "nombre": "Salame tipo Milán",
+      "descripcion": "Grano fino y sabor equilibrado, infaltable en la picada.",
+      "imagen": "img/productos/fiambres.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "quesos",
+      "nombre": "Queso de máquina",
+      "descripcion": "Clásico para el día a día, en fetas o en trozo.",
+      "imagen": "img/productos/quesos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "quesos",
+      "nombre": "Queso azul",
+      "descripcion": "Cremoso y potente, para tablas y salsas.",
+      "imagen": "img/productos/quesos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "quesos",
+      "nombre": "Provolone",
+      "descripcion": "Para la parrilla o para disfrutar en cubos.",
+      "imagen": "img/productos/quesos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "encurtidos",
+      "nombre": "Aceitunas verdes",
+      "descripcion": "Descarozadas o con carozo, en salmuera.",
+      "imagen": "img/productos/encurtidos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "encurtidos",
+      "nombre": "Pickles mixtos",
+      "descripcion": "Coliflor, zanahoria, pepinillos y cebollitas en vinagre.",
+      "imagen": "img/productos/encurtidos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "encurtidos",
+      "nombre": "Berenjenas en escabeche",
+      "descripcion": "Preparación casera con ajo, orégano y aceite.",
+      "imagen": "img/productos/encurtidos.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "picadas",
+      "nombre": "Picada clásica",
+      "descripcion": "Fiambres y quesos surtidos para 2 personas.",
+      "imagen": "img/productos/picadas.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "picadas",
+      "nombre": "Picada familiar",
+      "descripcion": "Variedad de fiambres, quesos y encurtidos para 4 a 6 personas.",
+      "imagen": "img/productos/picadas.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "picadas",
+      "nombre": "Tabla de quesos",
+      "descripcion": "Selección de quesos con frutos secos.",
+      "imagen": "img/productos/picadas.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "otros",
+      "nombre": "Pan de campo",
+      "descripcion": "Corteza crocante, ideal para acompañar la picada.",
+      "imagen": "img/productos/otros.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "otros",
+      "nombre": "Grisines",
+      "descripcion": "Crocantes, en paquete.",
+      "imagen": "img/productos/otros.svg",
+      "precio": ""
+    },
+    {
+      "categoria": "otros",
+      "nombre": "Dulce de membrillo",
+      "descripcion": "Para el clásico postre vigilante con queso.",
+      "imagen": "img/productos/otros.svg",
+      "precio": ""
+    }
+  ]
+}

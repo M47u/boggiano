@@ -1,0 +1,9 @@
+config.php
+uploads/cv/*
+!uploads/cv/.htaccess
+storage/*
+!storage/.htaccess
+
+# Local tooling / notes
+.atl/
+redesign-prompt.md

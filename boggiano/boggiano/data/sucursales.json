@@ -1,0 +1,59 @@
+{
+  "sucursales": [
+    {
+      "id": "fotheringham",
+      "nombre": "Fotheringham",
+      "direccion": "Fotheringham 1565",
+      "ciudad": "Formosa",
+      "horarios": "Lun a Sáb 8 a 12 y 17 a 21",
+      "telefono": "370 503-5029",
+      "whatsapp": true,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kirchner",
+      "nombre": "Av. Kirchner",
+      "direccion": "Av. Dr. Néstor Kirchner 2315",
+      "ciudad": "Formosa",
+      "horarios": "Lun a Sáb 8 a 12 y 17 a 21",
+      "telefono": "370 436-6506",
+      "whatsapp": true,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "senador-emilio-tomas",
+      "nombre": "Av. Senador Emilio Tomás",
+      "direccion": "Senador Emilio Tomás 2281",
+      "ciudad": "Formosa",
+      "horarios": "Lun a Sáb 8 a 12 y 17 a 21",
+      "telefono": "370 526-1213",
+      "whatsapp": true,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "lote-4",
+      "nombre": "Lote 4",
+      "direccion": "Entre Ríos 2095",
+      "ciudad": "Formosa",
+      "horarios": "Lun a Sáb 8 a 12 y 17 a 21",
+      "telefono": "",
+      "whatsapp": false,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "liborsi",
+      "nombre": "Liborsi",
+      "direccion": "Av. Dr. Néstor Kirchner 5020",
+      "ciudad": "Formosa",
+      "horarios": "Lun a Sáb 8 a 12 y 17 a 21",
+      "telefono": "370 522-3274",
+      "whatsapp": true,
+      "lat": null,
+      "lng": null
+    }
+  ]
+}

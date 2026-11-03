@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Imagen ilustrativa: Picadas">
+  <rect width="400" height="300" fill="#faf3f1"/>
+  <g fill="none" stroke="#760001" stroke-width="3" opacity="0.85"><rect x="90" y="85" width="220" height="110" rx="14"/><path d="M310 140 h30"/><circle cx="140" cy="125" r="18"/><path d="M185 110 l30 0 l-15 30 Z"/><rect x="235" y="110" width="40" height="30" rx="4"/><circle cx="165" cy="165" r="8"/><circle cx="260" cy="168" r="8"/></g>
+  <text x="200" y="262" text-anchor="middle" font-family="'Arial Narrow', Arial, sans-serif" font-size="24" font-style="italic" font-weight="700" fill="#760001">Picadas</text>
+</svg>
