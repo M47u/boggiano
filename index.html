@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiambrería Boggiano | Fiambres, quesos y picadas en Formosa</title>
+  <meta name="description" content="Fiambrería Boggiano: fiambres, quesos, encurtidos y picadas en Formosa Capital. Conocé nuestro catálogo, venta mayorista y las 5 sucursales.">
+  <meta name="theme-color" content="#760001">
+  <!-- PLACEHOLDER: replace https://www.example.com/ with the real domain (canonical, Open Graph and JSON-LD below) -->
+  <link rel="canonical" href="https://www.example.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Fiambrería Boggiano">
+  <meta property="og:title" content="Fiambrería Boggiano | Fiambres, quesos y picadas en Formosa">
+  <meta property="og:description" content="Fiambres, quesos, encurtidos y picadas. 5 sucursales en Formosa Capital y venta mayorista.">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:image" content="https://www.example.com/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fiambrería Boggiano">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Barlow+Condensed:ital,wght@1,700;1,800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+
+  <!--
+    Schema.org: one FoodEstablishment per branch.
+    Keep in sync with data/sucursales.json (see README). Opening hours are PLACEHOLDER.
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.example.com/#org",
+        "name": "Fiambrería Boggiano",
+        "url": "https://www.example.com/",
+        "logo": "https://www.example.com/img/favicon.svg",
+        "sameAs": [
+          "https://www.facebook.com/fiambreriaboggiano",
+          "https://www.instagram.com/fiambreriaboggiano"
+        ]
+      },
+      {
+        "@type": "FoodEstablishment",
+        "@id": "https://www.example.com/#sucursal-fotheringham",
+        "name": "Fiambrería Boggiano - Fotheringham",
+        "parentOrganization": { "@id": "https://www.example.com/#org" },
+        "url": "https://www.example.com/#sucursales",
+        "image": "https://www.example.com/img/og-image.jpg",
+        "telephone": "+54 370 503-5029",
+        "priceRange": "$$",
+        "address": { "@type": "PostalAddress", "streetAddress": "Fotheringham 1565", "addressLocality": "Formosa", "addressRegion": "Formosa", "postalCode": "3600", "addressCountry": "AR" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "12:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00" }
+        ]
+      },
+      {
+        "@type": "FoodEstablishment",
+        "@id": "https://www.example.com/#sucursal-kirchner",
+        "name": "Fiambrería Boggiano - Av. Kirchner",
+        "parentOrganization": { "@id": "https://www.example.com/#org" },
+        "url": "https://www.example.com/#sucursales",
+        "image": "https://www.example.com/img/og-image.jpg",
+        "telephone": "+54 370 436-6506",
+        "priceRange": "$$",
+        "address": { "@type": "PostalAddress", "streetAddress": "Av. Dr. Néstor Kirchner 2315", "addressLocality": "Formosa", "addressRegion": "Formosa", "postalCode": "3600", "addressCountry": "AR" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "12:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00" }
+        ]
+      },
+      {
+        "@type": "FoodEstablishment",
+        "@id": "https://www.example.com/#sucursal-senador-emilio-tomas",
+        "name": "Fiambrería Boggiano - Av. Senador Emilio Tomás",
+        "parentOrganization": { "@id": "https://www.example.com/#org" },
+        "url": "https://www.example.com/#sucursales",
+        "image": "https://www.example.com/img/og-image.jpg",
+        "telephone": "+54 370 526-1213",
+        "priceRange": "$$",
+        "address": { "@type": "PostalAddress", "streetAddress": "Senador Emilio Tomás 2281", "addressLocality": "Formosa", "addressRegion": "Formosa", "postalCode": "3600", "addressCountry": "AR" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "12:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00" }
+        ]
+      },
+      {
+        "@type": "FoodEstablishment",
+        "@id": "https://www.example.com/#sucursal-lote-4",
+        "name": "Fiambrería Boggiano - Lote 4",
+        "parentOrganization": { "@id": "https://www.example.com/#org" },
+        "url": "https://www.example.com/#sucursales",
+        "image": "https://www.example.com/img/og-image.jpg",
+        "priceRange": "$$",
+        "address": { "@type": "PostalAddress", "streetAddress": "Entre Ríos 2095", "addressLocality": "Formosa", "addressRegion": "Formosa", "postalCode": "3600", "addressCountry": "AR" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "12:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00" }
+        ]
+      },
+      {
+        "@type": "FoodEstablishment",
+        "@id": "https://www.example.com/#sucursal-liborsi",
+        "name": "Fiambrería Boggiano - Liborsi",
+        "parentOrganization": { "@id": "https://www.example.com/#org" },
+        "url": "https://www.example.com/#sucursales",
+        "image": "https://www.example.com/img/og-image.jpg",
+        "telephone": "+54 370 522-3274",
+        "priceRange": "$$",
+        "address": { "@type": "PostalAddress", "streetAddress": "Av. Dr. Néstor Kirchner 5020", "addressLocality": "Formosa", "addressRegion": "Formosa", "postalCode": "3600", "addressCountry": "AR" },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "12:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "21:00" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- 1. Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Fiambrería Boggiano, ir al inicio">
+        <picture>
+          <source srcset="img/logo-boggiano.webp" type="image/webp">
+          <img class="brand-logo" src="img/logo-boggiano.png" width="560" height="208" alt="" fetchpriority="high">
+        </picture>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Abrir menú</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Principal">
+        <ul class="nav-list">
+          <li><a href="#nosotros">Quiénes somos</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#mayorista">Mayorista</a></li>
+          <li><a href="#sucursales">Sucursales</a></li>
+          <li><a href="#trabaja">Trabajá con nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <!-- 2. Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="hero-kicker">Fiambrería en Formosa Capital</p>
+        <h1 class="hero-title" id="hero-title">Fiambrería Boggiano</h1>
+        <!-- PLACEHOLDER: tagline to confirm with the client -->
+        <p class="hero-lead" data-placeholder="tagline">Fiambres, quesos y picadas para cada mesa formoseña.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#catalogo">Ver catálogo</a>
+          <a class="btn btn-outline-light" href="#sucursales">Nuestras sucursales</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About -->
+    <section class="section" id="nosotros" aria-labelledby="nosotros-title">
+      <div class="container about">
+        <div class="section-head">
+          <p class="eyebrow">Nuestra historia</p>
+          <h2 class="section-title" id="nosotros-title">Quiénes somos</h2>
+        </div>
+        <!-- PLACEHOLDER: replace both paragraphs with the client's real story -->
+        <div class="about-body" data-placeholder="about">
+          <p>Somos una fiambrería familiar de Formosa. Desde nuestros comienzos elegimos cada producto con el mismo cuidado: fiambres bien estacionados, quesos de buena procedencia y la atención de siempre, la que conoce a cada cliente por su nombre.</p>
+          <p>Hoy contamos con cinco sucursales en la ciudad y seguimos creciendo con la misma idea: que encuentres todo lo necesario para una buena mesa, desde el sándwich del día hasta la picada para compartir con amigos y familia.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Catalog (rendered from data/catalogo.json) -->
+    <section class="section section-alt" id="catalogo" aria-labelledby="catalogo-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Lo que vas a encontrar</p>
+          <h2 class="section-title" id="catalogo-title">Catálogo</h2>
+          <p class="section-lead">Productos de referencia. La disponibilidad puede variar según la sucursal.</p>
+        </div>
+
+        <div class="catalog-filters" role="group" aria-label="Filtrar por categoría" id="catalog-filters"></div>
+        <div class="catalog" id="catalog" aria-live="polite">
+          <p class="loading">Cargando catálogo…</p>
+        </div>
+        <noscript><p class="notice">Para ver el catálogo necesitás habilitar JavaScript.</p></noscript>
+      </div>
+    </section>
+
+    <!-- 5. Wholesale -->
+    <section class="section wholesale" id="mayorista" aria-labelledby="mayorista-title">
+      <div class="container wholesale-inner">
+        <div>
+          <p class="eyebrow eyebrow-light">Para comercios y eventos</p>
+          <h2 class="section-title" id="mayorista-title">Venta mayorista</h2>
+          <!-- PLACEHOLDER: wholesale conditions to confirm with the client -->
+          <p class="wholesale-text" data-placeholder="wholesale">Abastecemos a almacenes, restaurantes, rotiserías y eventos con fiambres y quesos por pieza o por kilo. Escribinos y te pasamos la lista de precios y las condiciones.</p>
+        </div>
+        <!-- PLACEHOLDER: wholesale WhatsApp number (currently uses the Fotheringham branch) -->
+        <a class="btn btn-whatsapp" data-placeholder="wholesale-whatsapp"
+           href="https://wa.me/5493705035029?text=Hola%2C%20quiero%20consultar%20por%20venta%20mayorista."
+           target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3Z"/></svg>
+          Consultar por WhatsApp
+          <span class="visually-hidden">(se abre en una pestaña nueva)</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 6. Branches (rendered from data/sucursales.json) -->
+    <section class="section" id="sucursales" aria-labelledby="sucursales-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Te esperamos</p>
+          <h2 class="section-title" id="sucursales-title">Sucursales</h2>
+        </div>
+        <div class="branch-list" id="branch-list">
+          <p class="loading">Cargando sucursales…</p>
+        </div>
+        <noscript><p class="notice">Para ver las sucursales necesitás habilitar JavaScript.</p></noscript>
+      </div>
+    </section>
+
+    <!-- 7. Careers -->
+    <section class="section section-alt" id="trabaja" aria-labelledby="trabaja-title">
+      <div class="container careers">
+        <div class="section-head">
+          <p class="eyebrow">Sumate al equipo</p>
+          <h2 class="section-title" id="trabaja-title">Trabajá con nosotros</h2>
+          <p class="section-lead">Dejanos tus datos y tu CV. Los campos marcados con <span aria-hidden="true">*</span><span class="visually-hidden">asterisco</span> son obligatorios.</p>
+        </div>
+
+        <form class="cv-form" id="cv-form" action="enviar-cv.php" method="post" enctype="multipart/form-data" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="nombre">Nombre <span class="req" aria-hidden="true">*</span></label>
+              <input id="nombre" name="nombre" type="text" autocomplete="given-name" maxlength="60" required aria-describedby="nombre-error">
+              <p class="field-error" id="nombre-error"></p>
+            </div>
+            <div class="field">
+              <label for="apellido">Apellido <span class="req" aria-hidden="true">*</span></label>
+              <input id="apellido" name="apellido" type="text" autocomplete="family-name" maxlength="60" required aria-describedby="apellido-error">
+              <p class="field-error" id="apellido-error"></p>
+            </div>
+            <div class="field">
+              <label for="dni">DNI <span class="req" aria-hidden="true">*</span></label>
+              <input id="dni" name="dni" type="text" inputmode="numeric" maxlength="10" required aria-describedby="dni-hint dni-error">
+              <p class="field-hint" id="dni-hint">Solo números, sin puntos.</p>
+              <p class="field-error" id="dni-error"></p>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono <span class="req" aria-hidden="true">*</span></label>
+              <input id="telefono" name="telefono" type="tel" autocomplete="tel" maxlength="20" required aria-describedby="telefono-hint telefono-error">
+              <p class="field-hint" id="telefono-hint">Con código de área, por ejemplo 370 4123456.</p>
+              <p class="field-error" id="telefono-error"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="120" required aria-describedby="email-error">
+              <p class="field-error" id="email-error"></p>
+            </div>
+            <div class="field">
+              <label for="sucursal">Sucursal de preferencia <span class="req" aria-hidden="true">*</span></label>
+              <select id="sucursal" name="sucursal" required aria-describedby="sucursal-error">
+                <option value="">Elegí una sucursal</option>
+                <option value="indistinta">Cualquiera / indistinta</option>
+              </select>
+              <p class="field-error" id="sucursal-error"></p>
+            </div>
+            <div class="field field-full">
+              <label for="mensaje">Mensaje <span class="optional">(opcional)</span></label>
+              <textarea id="mensaje" name="mensaje" rows="4" maxlength="1000" aria-describedby="mensaje-error"></textarea>
+              <p class="field-error" id="mensaje-error"></p>
+            </div>
+            <div class="field field-full">
+              <label for="cv">CV en PDF <span class="req" aria-hidden="true">*</span></label>
+              <input id="cv" name="cv" type="file" accept="application/pdf,.pdf" required aria-describedby="cv-hint cv-error">
+              <p class="field-hint" id="cv-hint">Solo PDF, máximo 2 MB.</p>
+              <p class="field-error" id="cv-error"></p>
+            </div>
+
+            <!-- Honeypot: hidden from people, bots tend to fill it -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="website">No completar este campo</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <button class="btn btn-primary" type="submit" id="cv-submit">Enviar postulación</button>
+            <div class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <picture>
+          <source srcset="img/logo-boggiano.webp" type="image/webp">
+          <img class="footer-logo" src="img/logo-boggiano.png" width="560" height="208" alt="Boggiano Fiambrerías" loading="lazy">
+        </picture>
+        <p>Fiambrería en Formosa Capital.</p>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Teléfonos</h2>
+        <ul class="footer-list" id="footer-phones">
+          <li>370 503-5029 (Fotheringham)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Seguinos</h2>
+        <ul class="footer-list social">
+          <li>
+            <a href="https://www.facebook.com/fiambreriaboggiano" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4a22 22 0 0 0-2.5-.1c-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5V14h2.7v8h3.3Z"/></svg>
+              Facebook<span class="visually-hidden"> (se abre en una pestaña nueva)</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/fiambreriaboggiano" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4Zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM21 8.1c0-1.6-.4-3-1.6-4.1-1.1-1.1-2.5-1.5-4.1-1.6H8.7c-1.6 0-3 .5-4.1 1.6C3.5 5.1 3 6.5 3 8.1v7.8c0 1.6.5 3 1.6 4.1 1.1 1.1 2.5 1.5 4.1 1.6h6.6c1.6 0 3-.5 4.1-1.6 1.1-1.1 1.5-2.5 1.6-4.1V8.1Zm-2 9.6a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4a3 3 0 0 1-1.7-1.7c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3A3 3 0 0 1 6.7 5.5c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19 7.2c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.2Z"/></svg>
+              Instagram<span class="visually-hidden"> (se abre en una pestaña nueva)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Fiambrería Boggiano. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
